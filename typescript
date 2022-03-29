@@ -12,3 +12,12 @@ ES3 -> Very old and secure
 
 tsconfig file
 
+- strong typing
+- oop
+- compile time checking 
+
+# Cross-compile TS->JS and execute JS
+tsc && node dist/main.js
+
+# NB: cannot have multiple constructors in TS
+#     need to make the arguments optional 
