@@ -1,0 +1,14 @@
+# Transpile typescript file to .js file
+tsc main.ts
+# If no output -> SUCCESS :-) 
+
+# Use config file - to guide execution
+# w -> watch mode
+tsc -w
+
+
+ts file -> js(ES3) file
+ES3 -> Very old and secure
+
+tsconfig file
+
